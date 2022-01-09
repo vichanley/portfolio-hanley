@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #B4A186;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 10px 15px;
+    font-weight: bolder;
+    font-size: 1.75vw;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);   
+}
+
+header nav ul li a:hover {
+    background: #B4A186;
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero h1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 100px;
+}
+
+body h2 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 75px;
+    text-align: center;
+
+}
+
+body h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.section {
+    width: auto;
+    margin: 0 auto 30px auto;
+    background: #B4A186;
+    color: black;
+    overflow: auto;
+
+}
+
+.section img {
+    width: 25%;
+    float: left;
+}
+
+.section p {
+    padding: 60px;
+    width: 65%;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.run-buddy img {
+    width: 30%;
+    float: right;
+}
+
+.center-text {
+    text-align: center;
+    padding: 60px;
+}
+
+
+footer {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 50px 35px;
+}
+
+footer h2 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
